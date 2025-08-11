@@ -1,0 +1,10 @@
+^C:\USERS\7000041455\DOCUMENTS\IMAGEEDITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/7000041455/Documents/ImageEditor -BC:/Users/7000041455/Documents/ImageEditor/build --check-stamp-file C:/Users/7000041455/Documents/ImageEditor/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

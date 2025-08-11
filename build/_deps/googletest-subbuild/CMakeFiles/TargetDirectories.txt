@@ -1,0 +1,3 @@
+C:/Users/7000041455/Documents/ImageEditor/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/7000041455/Documents/ImageEditor/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/7000041455/Documents/ImageEditor/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
